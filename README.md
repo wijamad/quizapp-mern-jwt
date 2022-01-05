@@ -25,7 +25,7 @@ dibuat dengan Exprexx generator
 -"cors": "^2.8.5".
 -"debug": "~2.6.9".
 -"dotenv": "^10.0.0"
--"express": "~4.16.1"
+-"express": "~4.16.1".
 -"jsonwebtoken": "^8.5.1"
 -"morgan": "~1.9.1"
 -"mysql2": "^2.3.3"
