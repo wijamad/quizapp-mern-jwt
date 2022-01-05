@@ -20,10 +20,10 @@ Dibuat dengan MERN &amp; bjwtt authentication
 
 dibuat dengan Exprexx generator
 
--"bcrypt": "^5.0.1"
--"cookie-parser": "~1.4.4"
--"cors": "^2.8.5"
--"debug": "~2.6.9"
+-"bcrypt": "^5.0.1".
+-"cookie-parser": "~1.4.4".
+-"cors": "^2.8.5".
+-"debug": "~2.6.9".
 -"dotenv": "^10.0.0"
 -"express": "~4.16.1"
 -"jsonwebtoken": "^8.5.1"
