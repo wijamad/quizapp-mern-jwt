@@ -20,14 +20,14 @@ Dibuat dengan MERN &amp; bjwtt authentication
 
 dibuat dengan Exprexx generator
 
--"bcrypt": "^5.0.1".
--"cookie-parser": "~1.4.4".
--"cors": "^2.8.5".
--"debug": "~2.6.9".
--"dotenv": "^10.0.0"
--"express": "~4.16.1".
--"jsonwebtoken": "^8.5.1"
--"morgan": "~1.9.1"
--"mysql2": "^2.3.3"
--"sequelize": "^6.12.4"
+-"bcrypt": "^5.0.1".</br>
+-"cookie-parser": "~1.4.4".</br>
+-"cors": "^2.8.5".</br>
+-"debug": "~2.6.9".</br>
+-"dotenv": "^10.0.0"</br>
+-"express": "~4.16.1".</br>
+-"jsonwebtoken": "^8.5.1"</br>
+-"morgan": "~1.9.1"</br>
+-"mysql2": "^2.3.3"</br>
+-"sequelize": "^6.12.4"</br>
 
