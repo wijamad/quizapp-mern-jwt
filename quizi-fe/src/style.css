@@ -1,0 +1,147 @@
+html,
+body {
+    margin: 0px;
+    height: 100%;
+    padding: 0px;
+}
+
+body.home {
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+
+
+
+#d-2 {
+
+    height: 95vh;
+}
+
+#d-3 {
+    height: 5vh;
+}
+
+.column {
+    height: 100%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+
+    height: 50%;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b {
+    background: transparent;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.b>.box {
+    width: 100%;
+    background-clip: padding-box;
+    margin: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* background-color:green; */
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+.box:active {
+    background-color: #68C751;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+.nilai {
+
+    width: 800px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+.title {
+
+    font-size: 100px;
+    color: black;
+}
+
+ .btn-nilai>.btn {
+     margin: 10px;
+ }
+
+ .gradient-custom {
+     /* fallback for old browsers */
+     background: #6a11cb;
+ 
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+ 
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+ }
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .b {
+        flex-direction: column;
+    }
+
+    .b>.box {
+        background-color: aqua;
+        height: 100%;
+        width: auto;
+        font-size: 15px;
+        margin: 12px;
+    }
+
+    .nilai {
+        width: 300px;
+        height: 350px;
+
+    }
+
+    .title {
+        font-size: 50px;
+    }
+}
+
