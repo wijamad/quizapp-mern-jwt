@@ -24,7 +24,6 @@ const ProfileView = () => {
     }
     return (
         <div>
-
             <div className="jumbotron text-center">
                 <img src={quiz} alt="Mbak Sunny" width="200" className="rounded-circle img-thumbnail" />
                 <h1 className="display-4">{username}</h1>
